@@ -17,6 +17,8 @@
 <script>
 import mapboxgl from 'mapbox-gl/dist/mapbox-gl.js';
 
+mapboxgl.accessToken = 'YOUR MAPBOX ACCESS TOKEN HERE';
+
 let map;
 
 export default {
