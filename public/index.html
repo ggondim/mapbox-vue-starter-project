@@ -12,6 +12,9 @@
       <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
     </noscript>
     <div id="app"></div>
+    <% if (NODE_ENV=="production") { %>
+      <script src="https://polyfill.io/v3/polyfill.min.js"></script>
+    <% } %>
     <!-- built files will be auto injected -->
   </body>
 </html>
