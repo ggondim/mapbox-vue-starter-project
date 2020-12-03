@@ -1,5 +1,7 @@
 # mapbox-vue-starter-project
 
+![](./img.png)
+
 ## Highlights
 - Project uses Polyfill.io instead Babel for reduced output size
 - Project uses Mapbox GL npm module + Mapbox GL stylesheet also from its module (instead pointing to Mapbox CDN)
